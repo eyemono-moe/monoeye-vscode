@@ -663,6 +663,12 @@
 			}
 		},
 		{
+			"scope": "punctuation.definition.heading.markdown",
+			"settings": {
+				"foreground": "#F6EC7E"
+			}
+		},
+		{
 			"scope": [
 				"entity.name.function",
 				"entity.name.function.templated",
@@ -999,6 +1005,27 @@
 			],
 			"settings": {
 				"foreground": "#A2DB57"
+			}
+		},
+		{
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.raw.markdown",
+				"markup.fenced_code.block.markdown",
+				"markup.fenced_code.block.markdown punctuation",
+				"markup.raw.block.markdown",
+				"fenced_code.block.language"
+			],
+			"settings": {
+				"foreground": "#B381E4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#75F0DB"
 			}
 		},
 		{
