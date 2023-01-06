@@ -1,0 +1,32 @@
+{
+  "name": "monoeye",
+  "displayName": "Monoeye",
+  "description": "High contrast color scheme based on Monokai Pro",
+  "version": "0.0.1",
+  "author": "Eyemono Rin",
+  "publisher": "EyemonoRin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyemono/monoeye-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/eyemono/monoeye-vscode/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/marketplace-icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monoeye",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monoeye-color-theme.json"
+      }
+    ]
+  }
+}
