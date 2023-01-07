@@ -4,6 +4,8 @@
 
 Monoeye is a high contrast color scheme based on Monokai Pro.
 
+> :warning: This project is currently in progress and may undergo significant color scheme and syntax highlighting changes in the future.
+
 ## Installation
 
 ### Via Marketplace
