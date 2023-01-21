@@ -1,4 +1,14 @@
+src/**
+tests/**
+local/**
 .vscode/**
 .vscode-test/**
+.eslintcache
+.eslintrc.json
+.gitattributes
 .gitignore
+.prettierrc.json
+jest.config.json
+nodemon.json
+tsconfig.json
 vsc-extension-quickstart.md
