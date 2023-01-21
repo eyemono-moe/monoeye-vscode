@@ -2,3 +2,10 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+src/**
+tests/**
+nodemon.json
+jest.config.js
+tsconfig.json
+assets/**
+LICENSE.md

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "strict": true,
+    "target": "ESNext"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vscode"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
