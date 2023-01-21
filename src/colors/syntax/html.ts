@@ -1,4 +1,3 @@
-import { pathToFileURL } from "url";
 import { TokenColorGenerator } from "../../types/tokenColors";
 
 export const html: TokenColorGenerator = (palette) => {

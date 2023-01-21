@@ -1,10 +1,10 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs";
 import { join } from "path";
-import { ColorPalette, HexColor } from "./types/palette";
-import { FlatEditorColors } from "./types/editorColors";
-import { TokenColors } from "./types/tokenColors";
+
 import { editorColorGenerators } from "./colors/editor";
 import { tokenColorGenerators } from "./colors/syntax";
+import { FlatEditorColors } from "./types/editorColors";
+import { ColorPalette, HexColor } from "./types/palette";
 import { flatten } from "./utils/util";
 
 export type ThemeConfig = {

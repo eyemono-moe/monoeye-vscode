@@ -17,7 +17,6 @@ import { icon } from "./icon";
 import { input } from "./input";
 import { inputOption } from "./inputOption";
 import { inputValidation } from "./inputValidation";
-import { keybindingLabel } from "./keybindingLabel";
 import { list } from "./list";
 import { listFilterWidget } from "./listFilterWidget";
 import { menu } from "./menu";
@@ -67,7 +66,6 @@ export const editorColorGenerators = {
   input,
   inputOption,
   inputValidation,
-  keybindingLabel,
   list,
   listFilterWidget,
   menu,
