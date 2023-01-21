@@ -16,7 +16,7 @@ Monoeye is a high contrast color scheme based on Monokai Pro.
 
 ### Via Quick Open
 
-Launch VS Code Quick Open (Ctrl+P / ⌘P) and paste the following command, then press Enter:
+Launch VS Code Quick Open ( Ctrl+P / ⌘P ) and paste the following command, then press Enter:
 
 ```txt
 ext install EyemonoRin.monoeye
