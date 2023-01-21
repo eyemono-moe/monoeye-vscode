@@ -3,24 +3,32 @@ import { opacity } from "../opacity";
 
 export const mergeEditor: EditorColorGenerator = (palette) => {
   return {
-    // mergeEditor: {
-    //   change: {
-    //     background: `${palette.green}${opacity.opacity20}`,
-    //     word: { background: `${palette.green}${opacity.opacity20}` },
-    //   },
-    //   changeBase: {
-    //     background: `${palette.red}${opacity.opacity20}`,
-    //     word: { background: `${palette.red}${opacity.opacity20}` },
-    //   },
-    //   conflict: {
-    //     handled: { minimapOverViewRuler: "#adaca8ee" },
-    //     handledFocused: { border: "#c1c1c1cc" },
-    //     handledUnfocused: { border: "#86868649" },
-    //     unhandled: { minimapOverViewRuler: "#fcba03FF" },
-    //     unhandledFocused: { border: "#ffa600" },
-    //     unhandledUnfocused: { border: "#ffa6007a" },
-    //   },
-    //   conflictingLines: { background: `${palette.yellow}${opacity.opacity20}` },
-    // },
+    mergeEditor: {
+      change: {
+        background: `${palette.green}${opacity.opacityLow}`,
+        word: { background: `${palette.green}${opacity.opacityLow}` },
+      },
+      changeBase: {
+        background: `${palette.blue}${opacity.opacityLow}`,
+        word: { background: `${palette.blue}${opacity.opacityLow}` },
+      },
+      conflict: {
+        handled: {
+          minimapOverViewRuler: `${palette.fgSub}${opacity.opacityLow}`,
+        },
+        handledFocused: { border: `${palette.fgSub}${opacity.opacityMedium}` },
+        handledUnfocused: {
+          border: `${palette.fgSub}${opacity.opacityMedium}`,
+        },
+        unhandled: {
+          minimapOverViewRuler: `${palette.red}${opacity.opacityLow}`,
+        },
+        unhandledFocused: { border: `${palette.red}${opacity.opacityMedium}` },
+        unhandledUnfocused: { border: `${palette.red}${opacity.opacityLow}` },
+      },
+      conflictingLines: {
+        background: `${palette.yellow}${opacity.opacityLow}`,
+      },
+    },
   };
 };
