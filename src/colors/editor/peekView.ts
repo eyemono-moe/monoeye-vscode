@@ -12,7 +12,6 @@ export const peekView: EditorColorGenerator = (palette) => {
       fileForeground: palette.fgSub,
       lineForeground: palette.fgShadow,
       matchHighlightBackground: `${palette.orange}${opacity.opacityLow}`,
-      matchHighlightBorder: `${palette.orange}${opacity.opacityMedium}`,
       selectionBackground: `${palette.fgShadow}${opacity.opacityMedium}`,
       selectionForeground: palette.fgMain,
     },

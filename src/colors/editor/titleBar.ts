@@ -3,9 +3,9 @@ import type { EditorColorGenerator } from "../../types/editorColors";
 export const titleBar: EditorColorGenerator = (palette) => {
   return {
     titleBar: {
-      activeBackground: palette.bgDark,
+      activeBackground: palette.bgDarker,
       activeForeground: palette.fgSub,
-      inactiveBackground: palette.bgDarker,
+      inactiveBackground: palette.bgDark,
       inactiveForeground: palette.fgShadow,
     },
   };

@@ -28,12 +28,9 @@ export const editor: EditorColorGenerator = (palette) => {
       wordHighlightStrongBackground: `${palette.fgShadow}${opacity.opacityLow}`,
     },
     editorBracketHighlight: {
-      foreground1: palette.yellow,
-      foreground2: palette.green,
-      foreground3: palette.cyan,
-      foreground4: palette.blue,
-      foreground5: palette.purple,
-      foreground6: palette.orange,
+      foreground1: palette.cyan,
+      foreground2: palette.blue,
+      foreground3: palette.green,
       unexpectedBracket: {
         foreground: palette.red,
       },
