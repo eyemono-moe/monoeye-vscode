@@ -8,7 +8,7 @@ All notable changes to the "monoeye" extension will be documented in this file.
 - Made the blue color cooler.
 - Swapped red and orange.
 
-## 1.0.0
+## 0.1.0
 
 - Automatic theme generation from the color palette instead of manual theme generation.
   - With this change, the number of colors in the color palette has been reduced.
