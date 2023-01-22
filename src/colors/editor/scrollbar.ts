@@ -5,9 +5,9 @@ export const scrollbar: EditorColorGenerator = (palette) => {
   return {
     scrollbar: { shadow: "#000000" },
     scrollbarSlider: {
-      activeBackground: `${palette.fgMain}${opacity.opacityHigh}`,
-      hoverBackground: `${palette.fgMain}${opacity.opacityMedium}`,
-      background: `${palette.fgMain}${opacity.opacityLow}`,
+      activeBackground: `${palette.fgMain}${opacity.opacityLow}`,
+      hoverBackground: `${palette.fgSub}${opacity.opacityLow}`,
+      background: `${palette.fgShadow}${opacity.opacityLow}`,
     },
   };
 };

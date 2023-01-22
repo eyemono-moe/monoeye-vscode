@@ -6,7 +6,7 @@ export const minimap: EditorColorGenerator = (palette) => {
     minimap: {
       errorHighlight: `${palette.orange}${opacity.opacityHigh}`,
       findMatchHighlight: palette.red,
-      foregroundOpacity: `#0000${opacity.opacity100}`,
+      foregroundOpacity: `#0000${opacity.opacityHigh}`,
       selectionHighlight: `${palette.blue}${opacity.opacityHigh}`,
       selectionOccurrenceHighlight: `${palette.blue}${opacity.opacityHigh}`,
     },

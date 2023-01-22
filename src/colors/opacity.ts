@@ -1,6 +1,4 @@
 export const opacity = {
-  opacityLow: "22",
-  opacityMedium: "55",
+  opacityLow: "33",
   opacityHigh: "88",
-  opacity100: "FF",
 };

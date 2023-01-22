@@ -4,7 +4,7 @@ import { opacity } from "../opacity";
 export const list: EditorColorGenerator = (palette) => {
   return {
     list: {
-      activeSelectionBackground: `${palette.purple}${opacity.opacityMedium}`,
+      activeSelectionBackground: `${palette.purple}${opacity.opacityHigh}`,
       activeSelectionForeground: palette.fgMain,
       deemphasizedForeground: palette.fgSub,
       dropBackground: palette.bgMain,

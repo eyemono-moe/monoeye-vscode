@@ -7,7 +7,7 @@ export const quickInput: EditorColorGenerator = (palette) => {
       background: palette.bgMain,
     },
     quickInputList: {
-      focusBackground: `${palette.purple}${opacity.opacityMedium}`,
+      focusBackground: `${palette.purple}${opacity.opacityLow}`,
     },
   };
 };
