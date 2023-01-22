@@ -13,6 +13,6 @@ export const monoeyePalette: ColorPalette = {
   yellow: "#EDD861",
   green: "#A2DB57",
   cyan: "#75F0DB",
-  blue: "#9494FF",
+  blue: "#8F98FF",
   purple: "#C688F2",
 };
