@@ -2,6 +2,12 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.1
+
+- Make buttons more visible.
+- Made the blue color cooler.
+- Swapped red and orange.
+
 ## 1.0.0
 
 - Automatic theme generation from the color palette instead of manual theme generation.
