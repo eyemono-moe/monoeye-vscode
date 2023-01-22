@@ -67,7 +67,7 @@ export const editor: EditorColorGenerator = (palette) => {
       modifiedBackground: palette.blue,
     },
     editorHint: { foreground: palette.fgShadow },
-    editorInfo: { foreground: palette.blue },
+    editorInfo: { foreground: palette.purple },
     editorLightBulb: { foreground: palette.yellow },
     editorLightBulbAutoFix: { foreground: palette.cyan },
     editorLineNumber: {

@@ -4,13 +4,13 @@ import { opacity } from "../opacity";
 export const peekView: EditorColorGenerator = (palette) => {
   return {
     peekViewEditor: {
-      background: palette.bgMain,
+      background: palette.bgLight,
       matchHighlightBackground: `${palette.red}${opacity.opacityLow}`,
     },
     peekViewResult: {
       background: palette.bgMain,
       fileForeground: palette.fgSub,
-      lineForeground: palette.fgShadow,
+      lineForeground: palette.fgSub,
       matchHighlightBackground: `${palette.red}${opacity.opacityLow}`,
       selectionBackground: `${palette.fgShadow}${opacity.opacityMedium}`,
       selectionForeground: palette.fgMain,
