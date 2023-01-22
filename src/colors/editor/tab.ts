@@ -5,7 +5,7 @@ export const tab: EditorColorGenerator = (palette) => {
     tab: {
       activeForeground: palette.fgMain,
       activeBorderTop: palette.purple,
-      activeModifiedBorder: palette.purple,
+      activeModifiedBorder: palette.blue,
       border: palette.bgDarker,
       inactiveBackground: palette.bgDark,
       hoverBackground: palette.bgLight,

@@ -13,7 +13,7 @@ export const debug: EditorColorGenerator = (palette) => {
       breakpointStackframeForeground: palette.green,
       breakpointUnverifiedForeground: palette.fgShadow,
       continueForeground: palette.cyan,
-      disconnectForeground: palette.red,
+      disconnectForeground: palette.orange,
       pauseForeground: palette.cyan,
       restartForeground: palette.green,
       startForeground: palette.green,
@@ -21,7 +21,7 @@ export const debug: EditorColorGenerator = (palette) => {
       stepIntoForeground: palette.cyan,
       stepOutForeground: palette.cyan,
       stepOverForeground: palette.cyan,
-      stopForeground: palette.red,
+      stopForeground: palette.orange,
     },
     debugTokenExpression: {
       boolean: palette.blue,
