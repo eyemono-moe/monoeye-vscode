@@ -5,7 +5,7 @@ export const button: EditorColorGenerator = (palette) => {
     button: {
       background: palette.purple,
       foreground: palette.bgDarker,
-      secondaryBackground: palette.fgShadow,
+      secondaryBackground: palette.fgSub,
       secondaryForeground: palette.bgDarker,
     },
   };
