@@ -8,8 +8,8 @@ export type ColorPalette = {
   fgMain: HexColor;
   fgSub: HexColor;
   fgShadow: HexColor;
-  red: HexColor;
   orange: HexColor;
+  red: HexColor;
   yellow: HexColor;
   green: HexColor;
   cyan: HexColor;

@@ -7,8 +7,8 @@ export const diffEditor: EditorColorGenerator = (palette) => {
       diagonalFill: palette.fgShadow,
       insertedLineBackground: `${palette.green}${opacity.opacityLow}`,
       insertedTextBackground: `${palette.green}${opacity.opacityLow}`,
-      removedLineBackground: `${palette.red}${opacity.opacityLow}`,
-      removedTextBackground: `${palette.red}${opacity.opacityLow}`,
+      removedLineBackground: `${palette.orange}${opacity.opacityLow}`,
+      removedTextBackground: `${palette.orange}${opacity.opacityLow}`,
     },
   };
 };

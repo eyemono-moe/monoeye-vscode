@@ -3,11 +3,11 @@ import type { EditorColorGenerator } from "../../types/editorColors";
 export const symbolIcon: EditorColorGenerator = (palette) => {
   return {
     symbolIcon: {
-      classForeground: palette.orange,
+      classForeground: palette.red,
       constructorForeground: palette.purple,
-      enumeratorForeground: palette.orange,
+      enumeratorForeground: palette.red,
       enumeratorMemberForeground: palette.cyan,
-      eventForeground: palette.orange,
+      eventForeground: palette.red,
       fieldForeground: palette.cyan,
       functionForeground: palette.purple,
       interfaceForeground: palette.cyan,

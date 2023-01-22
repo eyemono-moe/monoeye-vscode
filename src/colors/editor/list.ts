@@ -8,11 +8,11 @@ export const list: EditorColorGenerator = (palette) => {
       activeSelectionForeground: palette.fgMain,
       deemphasizedForeground: palette.fgSub,
       dropBackground: palette.bgMain,
-      errorForeground: palette.red,
+      errorForeground: palette.orange,
       highlightForeground: palette.purple,
       hoverBackground: `${palette.purple}${opacity.opacityLow}`,
       inactiveSelectionBackground: `${palette.purple}${opacity.opacityLow}`,
-      invalidItemForeground: palette.red,
+      invalidItemForeground: palette.orange,
       warningForeground: palette.yellow,
     },
   };

@@ -4,7 +4,7 @@ export const extensionIcon: EditorColorGenerator = (palette) => {
   return {
     extensionIcon: {
       preReleaseForeground: palette.green,
-      sponsorForeground: palette.red,
+      sponsorForeground: palette.orange,
       starForeground: palette.yellow,
     },
   };

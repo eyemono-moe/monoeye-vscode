@@ -21,10 +21,14 @@ export const mergeEditor: EditorColorGenerator = (palette) => {
           border: `${palette.fgSub}${opacity.opacityMedium}`,
         },
         unhandled: {
-          minimapOverViewRuler: `${palette.red}${opacity.opacityLow}`,
+          minimapOverViewRuler: `${palette.orange}${opacity.opacityLow}`,
         },
-        unhandledFocused: { border: `${palette.red}${opacity.opacityMedium}` },
-        unhandledUnfocused: { border: `${palette.red}${opacity.opacityLow}` },
+        unhandledFocused: {
+          border: `${palette.orange}${opacity.opacityMedium}`,
+        },
+        unhandledUnfocused: {
+          border: `${palette.orange}${opacity.opacityLow}`,
+        },
       },
       conflictingLines: {
         background: `${palette.yellow}${opacity.opacityLow}`,

@@ -94,7 +94,7 @@ export const common: TokenColorGenerator = (palette) => {
     {
       scope: "invalid",
       settings: {
-        foreground: palette.red,
+        foreground: palette.orange,
       },
     },
 
@@ -110,13 +110,13 @@ export const common: TokenColorGenerator = (palette) => {
     {
       scope: "markup.changed",
       settings: {
-        foreground: palette.orange,
+        foreground: palette.red,
       },
     },
     {
       scope: "markup.deleted",
       settings: {
-        foreground: palette.red,
+        foreground: palette.orange,
       },
     },
     {
@@ -174,7 +174,7 @@ export const common: TokenColorGenerator = (palette) => {
     {
       scope: "variable.parameter",
       settings: {
-        foreground: palette.orange,
+        foreground: palette.red,
       },
     },
   ];

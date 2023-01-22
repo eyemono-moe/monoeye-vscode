@@ -4,7 +4,7 @@ export const inputValidation: EditorColorGenerator = (palette) => {
   return {
     inputValidation: {
       errorBackground: palette.bgLight,
-      errorBorder: palette.red,
+      errorBorder: palette.orange,
       infoBackground: palette.bgLight,
       infoBorder: palette.blue,
       warningBackground: palette.bgLight,
