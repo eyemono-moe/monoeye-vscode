@@ -2,6 +2,12 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.2
+
+- Slightly lowered the hue of blue.
+  - Made it easier to see the distinction between blue and purple.
+- Change the color of the status bar in debug mode.
+
 ## 0.1.1
 
 - Make buttons more visible.
