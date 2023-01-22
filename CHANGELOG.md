@@ -2,6 +2,20 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.4
+
+- Adjusted the opacity
+- Make secondary buttons more visible.
+- Make peek view more visible.
+- Clarification of the meaning of colors.
+  - red: search result, parameter
+  - orange: error, git removed
+  - yellow: warning
+  - green: success, git added, literal
+  - cyan: function name
+  - blue: type, class, interface name, git modified
+  - purple: primary accent color
+
 ## 0.1.3
 
 - Fixed red color in terminal.
