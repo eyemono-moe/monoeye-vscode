@@ -2,6 +2,10 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.3
+
+- Fixed red color in terminal.
+
 ## 0.1.2
 
 - Slightly lowered the hue of blue.
