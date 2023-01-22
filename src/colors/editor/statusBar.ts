@@ -4,7 +4,7 @@ export const statusBar: EditorColorGenerator = (palette) => {
   return {
     statusBar: {
       background: palette.bgDark,
-      debuggingBackground: palette.red,
+      debuggingBackground: palette.bgDark,
       foreground: palette.fgShadow,
       noFolderBackground: palette.bgDark,
     },
