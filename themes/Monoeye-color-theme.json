@@ -98,7 +98,7 @@
     "editorError.foreground": "#FF8566",
     "editorGhostText.foreground": "#6E6379",
     "editorGroup.border": "#0C0A0F",
-    "editorGroup.dropBackground": "#0C0A0F33",
+    "editorGroup.dropBackground": "#C688F233",
     "editorGroupHeader.tabsBackground": "#130F17",
     "editorGutter.addedBackground": "#A2DB57",
     "editorGutter.modifiedBackground": "#8F98FF",

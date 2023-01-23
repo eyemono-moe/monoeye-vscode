@@ -59,7 +59,7 @@ export const editor: EditorColorGenerator = (palette) => {
     editorGhostText: { foreground: palette.fgShadow },
     editorGroup: {
       border: palette.bgDarker,
-      dropBackground: `${palette.bgDarker}${opacity.opacityLow}`,
+      dropBackground: `${palette.purple}${opacity.opacityLow}`,
     },
     editorGroupHeader: { tabsBackground: palette.bgDark },
     editorGutter: {
