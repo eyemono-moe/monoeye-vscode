@@ -2,6 +2,11 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.5
+
+- :sparkles: add json file scope settings by @eyemono in <https://github.com/eyemono/monoeye-vscode/pull/8>
+- :eye: adjustment background color when dragging editor by @eyemono in <https://github.com/eyemono/monoeye-vscode/pull/9>
+
 ## 0.1.4
 
 - Adjusted the opacity
