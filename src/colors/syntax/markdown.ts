@@ -26,6 +26,12 @@ export const markdown: TokenColorGenerator = (palette) => {
         foreground: palette.fgMain,
       },
     },
+    {
+      scope: "punctuation.definition.list.begin.markdown",
+      settings: {
+        foreground: palette.green,
+      },
+    },
 
     // Color Bold and Italic
     {
