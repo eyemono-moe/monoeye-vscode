@@ -26,5 +26,13 @@ export const markdown: TokenColorGenerator = (palette) => {
         foreground: palette.fgMain,
       },
     },
+
+    // Color Bold and Italic
+    {
+      scope: ["markup.bold.markdown", "markup.italic.markdown"],
+      settings: {
+        foreground: palette.green,
+      },
+    },
   ];
 };
