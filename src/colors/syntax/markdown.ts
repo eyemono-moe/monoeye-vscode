@@ -34,5 +34,14 @@ export const markdown: TokenColorGenerator = (palette) => {
         foreground: palette.green,
       },
     },
+
+    // Quote
+    {
+      scope: "markup.quote.markdown meta.paragraph.markdown",
+      settings: {
+        foreground: palette.fgSub,
+        fontStyle: ["italic"],
+      },
+    },
   ];
 };
