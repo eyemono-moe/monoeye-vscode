@@ -15,6 +15,7 @@ export const markdown: TokenColorGenerator = (palette) => {
       scope: "entity.name.section.markdown",
       settings: {
         foreground: palette.purple,
+        fontStyle: ["bold"],
       },
     },
 
