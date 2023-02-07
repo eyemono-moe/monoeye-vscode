@@ -2,6 +2,10 @@
 
 All notable changes to the "monoeye" extension will be documented in this file.
 
+## 0.1.6
+
+- Add markdown syntax by @eyemono in <https://github.com/eyemono/monoeye-vscode/pull/14>
+
 ## 0.1.5
 
 - :sparkles: add json file scope settings by @eyemono in <https://github.com/eyemono/monoeye-vscode/pull/8>
